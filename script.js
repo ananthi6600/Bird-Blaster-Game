@@ -2,7 +2,7 @@ const gameBoard = document.getElementById('gameboard');
 const context = gameBoard.getContext('2d');
 const gifImage = new Image();
 
-const WIDTH = 1200;
+const WIDTH = 1000;
 const HEIGHT = 500;
 const UNIT = 100;
 
