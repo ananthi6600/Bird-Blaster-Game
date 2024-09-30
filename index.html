@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body >
+    <h1>Bird Blaster <i class="fa-solid fa-dove"></i></h1>
+    <div id="message">Use your mouse cursor to hunt down and click on the flying birds before they escape</div>
+    <div id="score">Score : <span id="scoreVal">0</span></div>
+
+    <div id="container">
+        <button id="button">Start Game</button>
+        <canvas class="custom-border" id="gameboard" width="1200" height="500"></canvas>
+    </div>
+    <audio id="audio" class="sound" preload="auto" src="laser-gun-81720.mp3" ></audio>    
+    <audio id="audio1" class="sound"  preload="auto" src="fail.mp3" ></audio>    
+    <audio id="audio2"  preload="sound" src="bgmusic.mp3" autoplay loop></audio>    
+    <audio id="audio3" preload="auto" src="gameOver.mp3" ></audio>    
+
+    <div id="mobile-message" style="display: none;">
+        This site is only available on desktop or laptop devices.
+    </div>
+</body>
+</html>
